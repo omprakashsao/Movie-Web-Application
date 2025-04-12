@@ -13,7 +13,7 @@ const Headers = () => {
        <Navbar bg="dark" variant="dark" expand="lg">
         <Container fluid>
             <Navbar.Brand href="/" style={{"color":'gold'}}>
-                <FontAwesomeIcon icon={faVideoSlash}/>Gold
+                <FontAwesomeIcon icon={faVideoSlash}/>Premium
 
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="navbarScroll"/>

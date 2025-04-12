@@ -40,6 +40,32 @@ const Reviews = ({getMovieData,movie,reviews,setReviews}) => {
 
 
     }
+    // ===============
+    // const getReview = async (e) =>{
+    //     e.preventDefault();
+
+    //     const rev = revText.current;
+
+    //     try
+    //     {
+    //         const response = await api.get("/api/v1/reviews",{reviewBody:rev.value,imdbId:movieId});
+
+    //         const reviews = [...reviews, {body:rev.value}];
+    
+    //         rev.value = current;
+    
+    //         getReview();
+    //     }
+    //     catch(err)
+    //     {
+    //         console.error(err);
+    //     }
+        
+
+
+
+    // }
+    // ================
 
   return (
     <Container>
@@ -66,7 +92,8 @@ const Reviews = ({getMovieData,movie,reviews,setReviews}) => {
                     </>
                 }
                 {
-                    reviews?.map((r) => {
+                  
+                   reviews && reviews?.map((r) => {
                         return(
                             <>
                                 <Row>
